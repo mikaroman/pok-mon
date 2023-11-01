@@ -1,5 +1,5 @@
 .grid {
-    width: 540px;
+    width: 828px;
     height: 360px;
     border: solid black;
     display: flex;
@@ -421,8 +421,8 @@
 
 
 
-
-/*  0 - a
+/*  cada letra pertenece a un numero para el mapa en el js
+    0 - a
     1 - t
     2 - b
     3 - c
@@ -438,10 +438,10 @@
     13 - m
     14 - n
     15 - o
-    16 - p
-    166 - q
-    17 - r
-    177 - s
+    16 - q
+    50 - p
+    17 - s
+    51 - r
     18 - u
     19 - v
     20 - w
@@ -465,8 +465,8 @@
     38 - ao
     39 - ap
     40 - aq
-    400 - ar
-    411 - as
+    52 - ar
+    53 - as
     41 - at
     42 - au
     43 - av
@@ -477,3 +477,5 @@
     48 - ba
     49 - bb
 */
+
+
