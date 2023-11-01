@@ -1,0 +1,479 @@
+.grid {
+    width: 540px;
+    height: 360px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 36px;
+    height: 36px;
+}
+
+/*duro
+.arbusto {
+    background-image: url("../IMG/arbusto.jpeg");
+    border-radius: 5px;
+    position: relative;
+    background-size: cover;
+}
+*/
+
+/*transparente
+.pasto-claro {
+    background-image: url("../IMG/pasto.jpg") ;
+    border: 5px ;
+    position: relative;
+    box-sizing: cover;
+}
+*/
+
+.a {
+    background-image: url("../IMG/18A.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.b{
+    background-image: url("../IMG/2.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.c {
+    background-image: url("../IMG/3.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.personaje {
+    background-image: url('../IMG/personajee.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px;
+    /*border: none;
+    z-index: 999;*/
+    
+}
+
+.d {
+    background-image: url('../IMG/4.jpg');
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.e {
+    background-image: url("../IMG/5.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.f {
+    background-image: url("../IMG/6.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.g {
+    background-image: url("../IMG/7.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.h {
+    background-image: url("../IMG/8.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.i {
+    background-image: url("../IMG/9.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.j {
+    background-image: url("../IMG/10.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.k {
+    background-image: url("../IMG/11.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.l {
+    background-image: url("../IMG/12.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.m {
+    background-image: url("../IMG/13.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.n {
+    background-image: url("../IMG/14.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.o {
+    background-image: url("../IMG/15.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.p {
+    background-image: url("../IMG/16A.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.q {
+    background-image: url("../IMG/16.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.r {
+    background-image: url("../IMG/17A.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.s {
+    background-image: url("../IMG/17.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.t {
+    background-image: url("../IMG/1.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.u {
+    background-image: url("../IMG/18.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
+.v {
+    background-image: url("../IMG/19.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.w {
+    background-image: url("../IMG/20.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.x {
+    background-image: url("../IMG/21.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.y {
+    background-image: url("../IMG/22.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.z {
+    background-image: url("../IMG/23.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.aa {
+    background-image: url("../IMG/24.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ab {
+    background-image: url("../IMG/25.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ac {
+    background-image: url("../IMG/26.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ad {
+    background-image: url("../IMG/27.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ae {
+    background-image: url("../IMG/28.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.af {
+    background-image: url("../IMG/29.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ag {
+    background-image: url("../IMG/30.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ah {
+    background-image: url("../IMG/31.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ai {
+    background-image: url("../IMG/32.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.aj {
+    background-image: url("../IMG/33.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ak {
+    background-image: url("../IMG/34.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.al {
+    background-image: url("../IMG/35.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.am {
+    background-image: url("../IMG/36.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.an {
+    background-image: url("../IMG/37.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ao {
+    background-image: url("../IMG/38.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ap {
+    background-image: url("../IMG/39.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.aq {
+    background-image: url("../IMG/40.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ar {
+    background-image: url("../IMG/40A.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.as {
+    background-image: url("../IMG/41A.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.at {
+    background-image: url("../IMG/41.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.au {
+    background-image: url("../IMG/42.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.av {
+    background-image: url("../IMG/43.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.aw {
+    background-image: url("../IMG/44.jpg") ;
+    border: 5px ;
+    position: relative;
+    background-size: cover;
+}
+
+.ax {
+    background-image: url("../IMG/45.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ay {
+    background-image: url("../IMG/46.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.az {
+    background-image: url("../IMG/47.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ba {
+    background-image: url("../IMG/48.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bb {
+    background-image: url("../IMG/49.jpg");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+
+
+/*  0 - a
+    1 - t
+    2 - b
+    3 - c
+    4 - d
+    5 - e
+    6 - f
+    7 - g
+    8 - h
+    9 - i
+    10 - j
+    11 - k
+    12 - l
+    13 - m
+    14 - n
+    15 - o
+    16 - p
+    166 - q
+    17 - r
+    177 - s
+    18 - u
+    19 - v
+    20 - w
+    21 - x
+    22 - y
+    23 - z
+    24 - aa
+    25 - ab
+    26 - ac
+    27 - ad
+    28 - ae
+    29 - af
+    30 - ag
+    31 - ah
+    32 - ai
+    33 - aj
+    34 - ak
+    35 - al
+    36 - am
+    37 - an
+    38 - ao
+    39 - ap
+    40 - aq
+    400 - ar
+    411 - as
+    41 - at
+    42 - au
+    43 - av
+    44 - aw
+    45 - ax
+    46 - ay
+    47 - az
+    48 - ba
+    49 - bb
+*/
