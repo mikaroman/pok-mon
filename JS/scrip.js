@@ -1,6 +1,6 @@
 //const width= 28;
-const height= 10
-const width= 15
+const height=10
+const width= 23
 const grid= document.querySelector(".grid");
 const scoreDisplay = document.getElementById("score");
 let score = 0;
@@ -47,11 +47,11 @@ const layout = [
     46,48,46,44,7,10,37,36,35,34,33,11,1,7,10,37,36,35,34,33,11,1,7,
     47,49,47,44,7,19,28,29,30,31,32,11,1,7,19,28,29,30,31,32,11,1,7,
     46,48,46,44,21,20,27,26,25,24,23,22,1,21,20,27,26,25,24,23,22,1,7,
-    47,49,47,44,3,2,4,1,3,2,2,4,1,3,2,4,1,3,2,2,4,1,7,1,1,1,1,1,1,1,7,
-    46,48,46,44,1,1,1,1,1,1,1,1,1,5,52,1,1,1,1,1,1,1,7,
-    47,49,47,44,1,5,16,16,16,50,15,14,1,6,53,1,1,1,1,1,1,1,7,
-    46,48,46,44,1,6,17,17,17,51,0,13,1,7,42,1,1,1,1,1,1,1,7,
-    47,49,47,44,1,7,18,18,18,18,10,11,1,7,43,1,1,1,1,1,1,1,7,
+    47,49,47,44,3,2,4,1,3,2,2,4,1,3,2,4,1,3,2,2,4,1,7,
+    46,48,46,44,1,1,1,1,1,1,1,1,1,5,52,54,54,54,54,55,56,57,7,
+    47,49,47,44,1,5,16,16,16,50,15,14,1,6,53,58,58,58,58,59,60,61,7,
+    46,48,46,44,1,6,17,17,17,51,0,13,1,7,42,62,62,62,62,63,64,65,7,
+    47,49,47,44,1,7,18,18,18,18,10,11,1,7,43,66,67,68,69,70,71,72,7,
 ];
 
 /*pixel x numero*/
@@ -176,6 +176,44 @@ function createPokBoard() {
             square.classList.add("ba");
         } else if (layout[i] === 49) {
             square.classList.add("bb");
+        } else if (layout[i] === 54) {
+            square.classList.add("bc");
+        } else if (layout[i] === 55) {
+            square.classList.add("bd");
+        } else if (layout[i] === 56) {
+            square.classList.add("be");
+        } else if (layout[i] === 57) {
+            square.classList.add("bf");
+        } else if (layout[i] === 58) {
+            square.classList.add("bg");
+        } else if (layout[i] === 59) {
+            square.classList.add("bh");
+        } else if (layout[i] === 60) {
+            square.classList.add("bi");
+        } else if (layout[i] === 61) {
+            square.classList.add("bj");
+        } else if (layout[i] === 62) {
+            square.classList.add("bk");
+        } else if (layout[i] === 63) {
+            square.classList.add("bl");
+        } else if (layout[i] === 64) {
+            square.classList.add("bm");
+        } else if (layout[i] === 65) {
+            square.classList.add("bn");
+        } else if (layout[i] === 66) {
+            square.classList.add("bo");
+        } else if (layout[i] === 67) {
+            square.classList.add("bp");
+        } else if (layout[i] === 68) {
+            square.classList.add("bq");
+        } else if (layout[i] === 69) {
+            square.classList.add("br");
+        } else if (layout[i] === 70) {
+            square.classList.add("bs");
+        } else if (layout[i] === 71) {
+            square.classList.add("bt");
+        } else if (layout[i] === 72) {
+            square.classList.add("bu");
         }
     }
 }

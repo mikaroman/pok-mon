@@ -1,5 +1,5 @@
 .grid {
-    width: 828px;
+    width: 830px;
     height: 360px;
     border: solid black;
     display: flex;
@@ -418,6 +418,142 @@
     background-size: cover;
 }
 
+/* EXPANSION */
+
+.bc {
+    background-image: url("../IMG/71.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bd {
+    background-image: url("../IMG/75.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.be {
+    background-image: url("../IMG/76.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bf {
+    background-image: url("../IMG/77.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bg {
+    background-image: url("../IMG/81.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bh {
+    background-image: url("../IMG/85.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bi {
+    background-image: url("../IMG/86.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bj {
+    background-image: url("../IMG/87.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bk {
+    background-image: url("../IMG/91.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bl {
+    background-image: url("../IMG/95.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bm {
+    background-image: url("../IMG/96.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bn {
+    background-image: url("../IMG/97.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bo {
+    background-image: url("../IMG/101.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bp {
+    background-image: url("../IMG/102.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bq {
+    background-image: url("../IMG/103.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.br {
+    background-image: url("../IMG/104.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bs {
+    background-image: url("../IMG/105.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bt {
+    background-image: url("../IMG/106.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bu {
+    background-image: url("../IMG/107.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+
 
 
 
@@ -476,6 +612,29 @@
     47 - az
     48 - ba
     49 - bb
+
+    EXPANSION DEL MAPA
+
+    54 - BC
+    55 - BD
+    56 - BE
+    57 - BF
+    58 - BG
+    59 - BH
+    60 - BI
+    61 - BJ
+    62 - BK
+    63 - BL
+    64 - BM
+    65 - BN
+    66 - BO
+    67 - BP
+    68 - BQ
+    69 - BR
+    70 - BS
+    71 - BT
+    72 - BU
+
 */
 
 
