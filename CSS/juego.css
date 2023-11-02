@@ -1,6 +1,6 @@
 .grid {
-    width: 830px;
-    height: 360px;
+    width: 828px;
+    height: 610px;
     border: solid black;
     display: flex;
     flex-wrap: wrap;
@@ -553,9 +553,285 @@
     background-size: cover;
 }
 
+.bv {
+    background-image: url("../IMG/73.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
 
+.bw {
+    background-image: url("../IMG/74.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
 
+.bx {
+    background-image: url("../IMG/755.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
 
+.by {
+    background-image: url("../IMG/766.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.bz {
+    background-image: url("../IMG/777.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ca {
+    background-image: url("../IMG/78.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cb {
+    background-image: url("../IMG/79.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cbb {
+    background-image: url("../IMG/799.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cc {
+    background-image: url("../IMG/80.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cd {
+    background-image: url("../IMG/811.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ce {
+    background-image: url("../IMG/82.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cf {
+    background-image: url("../IMG/83.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cg {
+    background-image: url("../IMG/1g.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ch {
+    background-image: url("../IMG/855.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ci {
+    background-image: url("../IMG/866.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cj {
+    background-image: url("../IMG/877.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ck {
+    background-image: url("../IMG/88.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cl {
+    background-image: url("../IMG/89.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cm {
+    background-image: url("../IMG/90.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cn {
+    background-image: url("../IMG/911.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.co {
+    background-image: url("../IMG/92.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cp {
+    background-image: url("../IMG/93.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cq {
+    background-image: url("../IMG/94.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cr {
+    background-image: url("../IMG/1e.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cs{
+    background-image: url("../IMG/966.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ct {
+    background-image: url("../IMG/977.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cu {
+    background-image: url("../IMG/98.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cv {
+    background-image: url("../IMG/99.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cw {
+    background-image: url("../IMG/100.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cx {
+    background-image: url("../IMG/1a.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cy {
+    background-image: url("../IMG/1c.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cz {
+    background-image: url("../IMG/133.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.da {
+    background-image: url("../IMG/1b.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.db {
+    background-image: url("../IMG/1055.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.dc {
+    background-image: url("../IMG/166.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.dd {
+    background-image: url("../IMG/177.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.de {
+    background-image: url("../IMG/108.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.df {
+    background-image: url("../IMG/109.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.cg {
+    background-image: url("../IMG/110.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.ch {
+    background-image: url("../IMG/122.png");
+    border: 5px;
+    position: relative;
+    background-size: cover;
+}
 
 /*  cada letra pertenece a un numero para el mapa en el js
     0 - a
@@ -635,6 +911,46 @@
     71 - BT
     72 - BU
 
+    EXPANSION 2 (ABAJO)
+    73 - BV
+    74 - BW
+    755 - BX
+    766 - BY
+    777 - BZ
+    78 - CA
+    79 - CB
+    80 - CC
+    811 - CD
+    82 - CE
+    83 - CF
+    84 - CG
+    855 - CH
+    866 - CI
+    877 - CJ
+    88 - CK
+    89 - CL
+    90 - CM
+    911 - CN
+    92 - CO
+    93 - CP
+    94 - CQ
+    955 - CR
+    966 - CS
+    977 - CT
+    98 - CU
+    98 - CV
+    100 - CW
+    1011 - CX
+    1022 - CY
+    1033 - CZ
+    1044 - DA
+    1055 - DB
+    1066 - DC
+    1077 - DD
+    108 - DE
+    109 - DF
+    110 - DG
+    10
 */
 
 
