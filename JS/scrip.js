@@ -53,14 +53,15 @@ const layout = [
     46,48,46,44,1,6,17,17,17,51,0,13,1,7,42,62,62,62,62,63,64,65,7,
     47,49,47,44,1,7,18,18,18,18,10,11,1,7,43,66,67,68,69,70,71,72,7,
     46,48,46,44,1,7,18,18,18,18,10,11,1,7,73,74,75,76,77,78,79,799,7,
-
     47,49,47,44,1,7,80,10,10,10,10,11,1,81,82,82,83,1,1,82,82,1,7,
-    46,48,46,44,1,995,86,86,86,86,86,87,1,88,90,90,90,90,90,89,91,1,7,
-    47,49,47,44,1,1,1,1,93,92,92,94,1,1,96,96,96,97,96,98,99,1,7,
-    46,48,46,100,101,101,101,101,104,103,103,104,16,16,16,16,16,16,16,16,16,1,7,
 
-    47,49,47,10,10,10,10,10,102,105,105,104,17,17,17,17,17,17,17,17,17,1,7,
-    46,48,46,108,109,108,109,10,102,105,105,104,18,18,18,18,18,18,18,18,18,1,7,
+    46,48,46,44,1,995,86,86,86,86,86,87,1,88,90,90,90,90,90,89,91,1,7,
+
+    47,49,47,44,1,1,1,1,93,92,92,94,1,888,96,96,96,97,96,98,99,1,7,
+    46,48,46,100,101,101,101,101,999,103,103,104,16,16,16,16,16,16,16,16,16,1,7,
+
+    47,49,47,10,10,10,10,10,102,105,105,898,17,17,17,17,17,17,17,17,17,1,7,
+    46,48,46,108,109,108,109,10,102,105,105,898,18,18,18,18,18,18,18,18,18,1,7,
 ];
 
 
@@ -305,6 +306,12 @@ function createPokBoard() {
             square.classList.add("dg");
         } else if (layout[i] === 122) {
             square.classList.add("dh");
+        } else if (layout[i] === 999) {
+            square.classList.add("cii");
+        } else if (layout[i] === 888) {
+            square.classList.add("cjj");
+        } else if (layout[i] === 898){
+            square.classList.add("zz");
         }
     }
 }
@@ -331,12 +338,12 @@ function control(e) {
                 personajeCurrentIndex -= width;
             break;
         case 39:
-            if (personajeCurrentIndex % width > width - 1 && !squares[personajeCurrentIndex + 1].classList.contains('ay'))
+            if (personajeCurrentIndex % width < width - 1 && !squares[personajeCurrentIndex + 1].classList.contains('ay'))
                 personajeCurrentIndex += 1;
             console.log(personajeCurrentIndex);
             break;
         case 40:
-            if (personajeCurrentIndex + width > width * width && !squares[personajeCurrentIndex + width].classList.contains('ay'))
+            if (personajeCurrentIndex + width < width * width && !squares[personajeCurrentIndex + width].classList.contains('ay'))
                 personajeCurrentIndex += width;
             console.log(personajeCurrentIndex);
             break;
@@ -361,13 +368,13 @@ function control(e) {
                 console.log(personajeCurrentIndex);
             break;
         case 39:
-            if (personajeCurrentIndex % width > width - 1 && !squares[personajeCurrentIndex + 1].classList.contains('az'))
+            if (personajeCurrentIndex % width < width - 1 && !squares[personajeCurrentIndex + 1].classList.contains('az'))
                 personajeCurrentIndex += 1;
             console.log(personajeCurrentIndex);
             
             break;
         case 40:
-            if (personajeCurrentIndex + width > width * width && !squares[personajeCurrentIndex + width].classList.contains('az'))
+            if (personajeCurrentIndex + width < width * width && !squares[personajeCurrentIndex + width].classList.contains('az'))
                 personajeCurrentIndex += width;
             console.log(personajeCurrentIndex);
          break;

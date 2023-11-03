@@ -833,6 +833,27 @@
     background-size: cover;
 }
 
+.cii {
+    background-image: url("../IMG/1z.png");
+    border: 5px;
+    position: relative;
+    background-size: contain ;
+}
+
+.cjj {
+    background-image: url("../IMG/955.png");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.zz {
+    background-image: url("../IMG/0.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
 /*  cada letra pertenece a un numero para el mapa en el js
     0 - a
     1 - t
