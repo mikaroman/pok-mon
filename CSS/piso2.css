@@ -1,3 +1,4 @@
+/* Mapa de la casa*/
 .grid {
     width: 828px;
     height: 610px;
@@ -91,18 +92,94 @@
 }
 
 .ek {
-    background-image: url("../IMG/1122.jpg");
+    background-image: url("../IMG/1121.jpg");
     border: 5px;
     position: relative;
     background-size: contain ; 
 }
 
 .el {
-    background-image: url("../IMG/1119.jpg");
+    background-image: url("../IMG/1122.jpg");
     border: 5px;
     position: relative;
     background-size: contain ; 
 }
+
+.em {
+    background-image: url("../IMG/1123.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.en {
+    background-image: url("../IMG/1124.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eo {
+    background-image: url("../IMG/1125.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ep {
+    background-image: url("../IMG/1126.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eq {
+    background-image: url("../IMG/1127.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.er {
+    background-image: url("../IMG/1128.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.es {
+    background-image: url("../IMG/1129.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.et {
+    background-image: url("../IMG/1130.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eu {
+    background-image: url("../IMG/1131.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+/*
+const layout = [ 
+    1124,1124,1124,1124,1124,1124,1124,1124,1124,1124,1124,1124,1124,
+    1124,1125,1125,1125,        1123,1119,1119,1119,1119,1121       ,1125,1125,1125,
+    1124,1125,1125,1125,        1117,1127,1130,1131,1126,1118       ,1125,1125,1125,
+    1124,1125,1125,1125,        1117,1127,1129,1128,1126,1118       ,1125,1125,1125,
+    1124,1125,1125,1125,        1116,1122,1122,1122,1122,1120       ,1125,1125,1125,
+    1112    ,1125,1125,1125,1125,1125,1125,1125,1125,1125,1125,1125,    1112,
+    1111    ,1125,  1115,1114,1113    ,1125,1125,1125,1125,1125,1125,1125,    1111,
+];
+
+*/
 
 /*
 ea-eb                       planta          1111/1112
@@ -110,5 +187,5 @@ ec-ed-ee                    alfombra roja   1113/1114/1115
 ef-eg-eh-ei-ej-ek-el-em     alfombra verde  1116/1117/1118/1119/1120/1121/1122/1123
 en-eo                       piso            1124/1125        
 ep-eq                       silla           1126/1127
-ep-eq-er-es                 mesa            1128/1129/1130/1131
+er-es-et-eu                 mesa            1128/1129/1130/1131
 */
