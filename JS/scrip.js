@@ -320,7 +320,7 @@ createPokBoard();
 
 /*cuanto mide*/
 
-let personajeCurrentIndex = 82;
+let personajeCurrentIndex =129;
 squares[personajeCurrentIndex].classList.add("personaje");
 
 /*funcion para restar movimientos de el arbol 46*/
@@ -332,10 +332,12 @@ function control(e) {
         case 37:
             if (personajeCurrentIndex % width !== 0 && !squares[personajeCurrentIndex - 1].classList.contains('ay'))
                 personajeCurrentIndex -= 1;
+                console.log(personajeCurrentIndex);
             break;
         case 38:
             if (personajeCurrentIndex - width >= 0 && !squares[personajeCurrentIndex - width].classList.contains('ay'))
                 personajeCurrentIndex -= width;
+                console.log(personajeCurrentIndex);
             break;
         case 39:
             if (personajeCurrentIndex % width < width - 1 && !squares[personajeCurrentIndex + 1].classList.contains('ay'))
@@ -383,3 +385,16 @@ function control(e) {
 }
 
 document.addEventListener("keyup", control); 
+
+function toggle() {
+    var grid= document.querySelector(".grid");
+    var grid2 = document.querySelector("grid2");
+
+    if (grid.style.display === 'none') {
+        grid.style.display = 'block';
+        grid2.style.display = 'none';
+    } else {
+        grid.style.display = 'none';
+        grid2.style.display = 'block';
+    }
+}
