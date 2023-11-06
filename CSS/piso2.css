@@ -1,0 +1,114 @@
+.grid {
+    width: 828px;
+    height: 610px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 36px;
+    height: 36px;
+}
+
+.personaje {
+    background-image: url('../IMG/personajee.jpg');
+    position: relative;
+    background-size: cover;
+    border: 5px;
+    /*border: none;
+    z-index: 999;*/ 
+}
+
+.ea {
+    background-image: url("../IMG/1111.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eb {
+    background-image: url("../IMG/1112.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ec {
+    background-image: url("../IMG/1113.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ed {
+    background-image: url("../IMG/1114.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ee {
+    background-image: url("../IMG/1115.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ef {
+    background-image: url("../IMG/1116.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eg {
+    background-image: url("../IMG/1117.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.eh {
+    background-image: url("../IMG/1118.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ei {
+    background-image: url("../IMG/1119.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ej {
+    background-image: url("../IMG/1120.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.ek {
+    background-image: url("../IMG/1122.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+.el {
+    background-image: url("../IMG/1119.jpg");
+    border: 5px;
+    position: relative;
+    background-size: contain ; 
+}
+
+/*
+ea-eb                       planta          1111/1112
+ec-ed-ee                    alfombra roja   1113/1114/1115
+ef-eg-eh-ei-ej-ek-el-em     alfombra verde  1116/1117/1118/1119/1120/1121/1122/1123
+en-eo                       piso            1124/1125        
+ep-eq                       silla           1126/1127
+ep-eq-er-es                 mesa            1128/1130/1131/1132
+*/
