@@ -390,11 +390,13 @@ function toggle() {
     var grid= document.querySelector(".grid");
     var grid2 = document.querySelector("grid2");
 
-    if (grid.style.display === 'none') {
-        grid.style.display = 'block';
+    if (grid.style.display === (personajeCurrentIndex === 26)) {
+        grid.style.visibility = 'hidden';
         grid2.style.display = 'none';
     } else {
         grid.style.display = 'none';
-        grid2.style.display = 'block';
+        grid2.style.visibility = 'hidden';
     }
 }
+
+/*se puede llamar a un grid de otro js pero debo tener los js entrelazados entre si*/
